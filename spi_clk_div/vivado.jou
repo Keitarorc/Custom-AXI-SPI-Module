@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon May 11 19:34:51 2026
+# Process ID: 8644
+# Current directory: C:/Users/kc10b/Vivado/ECE520L/lab5/spi_clk_div
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent42204 C:\Users\kc10b\Vivado\ECE520L\lab5\spi_clk_div\spi_clk_div.xpr
+# Log file: C:/Users/kc10b/Vivado/ECE520L/lab5/spi_clk_div/vivado.log
+# Journal file: C:/Users/kc10b/Vivado/ECE520L/lab5/spi_clk_div\vivado.jou
+# Running On: Keitaro, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 12, Host memory: 16907 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/kc10b/Vivado/ECE520L/lab5/spi_clk_div/spi_clk_div.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_spi_clk_div.tcl
+run 1 us
+run 1 us
+close_sim
